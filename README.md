@@ -9,3 +9,10 @@ for /f "skip=9 tokens=1,2 delims=:" %i in ('netsh wlan show profiles') do  @echo
 
 
 脚本直接在Windows运行即可。
+
+1.0显示账号密码，需要手动结束，存储txt文件
+2.0显示账号密码，自动结束，存储txt文件
+3.0不显示账号密码，自动结束，存储txt文件
+
+
+
